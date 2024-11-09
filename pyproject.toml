@@ -3,10 +3,16 @@ name = "cds-nov-09-2024"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 dependencies = [
+    "datetime>=5.5",
+    "ipykernel>=6.29.5",
+    "ipython>=8.29.0",
     "matplotlib>=3.9.2",
+    "nbformat>=5.10.4",
+    "notebook>=7.2.2",
     "pandas>=2.2.3",
+    "requests>=2.32.3",
     "scipy>=1.14.1",
     "seaborn>=0.13.2",
 ]
